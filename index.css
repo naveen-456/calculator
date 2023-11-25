@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  
+}
+body{
+  background-image: url(https://img.freepik.com/premium-photo/top-view-blue-calculator-notepad-color-background_260672-4055.jpg);
+  background-size:cover;
+}
+
+.button{
+  width: 66px;
+  padding: 18px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 15px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(66, 179, 66);
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    border: 4px solid black;
+    width: 300px;
+    height: 450px;
+    border-radius: 4px;
+    background-color: rgb(37, 32, 32);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
